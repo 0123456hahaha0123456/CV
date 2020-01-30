@@ -1,0 +1,121 @@
+
+% Copyright by Duc Tran 30/1/2020
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[12pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+%\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage[left=1cm, right=1cm,top=1cm,bottom=1cm]{geometry}
+
+% personal data
+\name{Tran Trung Duc}{}
+%\title{ResumÃ© title}                               % optional, remove / comment the line if not wanted
+\address{Vyazemskiy per. 5-7}{197022}{Russian Federation}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+7(931)-207-9667}                   % optional, remove / comment the line if not wanted
+\email{ductran.tpc@gmail.com}                               % optional, remove / comment the line if not wanted
+\extrainfo{\url{https://github.com/0123456hahaha0123456}}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{2012--2015}{Student}{Tran Phu High School}{Hai Phong, VietNam}{}{}
+\cventry{2015--2016}{Bachelors in Computer Science}{Hanoi University of Engineering and Technology (UET)}{VietNam}{}{GPA: 3.76/4}
+\cventry{2017--now}{Bachelors in Computer Science}{ITMO University}{Saint-Petersburg}{\textit{Third year}}{GPA: 3.67/5}  % arguments 3 to 6 can be left empty
+
+\section{Highlighted projects}
+\begin{enumerate}
+    \item \textbf{Digitizing Information}
+    \begin{itemize}
+        \item The project will translate information of people into rectangle in GUI. Technologies : Core Java, JDBC, PostgreSQL. 
+        \item \href{https://github.com/0123456hahaha0123456/Digitizing-information}{Link-to-code}
+        \item Gain : Earn a lot of knowledge about Java
+    \end{itemize}
+
+    \item \textbf{Course work on database}
+    \begin{itemize}
+        \item Using postgresql to make a database for a web named "finding development". This website is used to find development, who can work in empty needed position of project
+        \item Gain : Knowledge about database
+    \end{itemize}
+
+    \item \textbf{Simple Web}
+    \begin{itemize}
+        \item A simple web to have fun for users. This website checks input point inside or outside of area. Technologies : JSP, JSF, Spring, Hibernate, VueJs, JBDC
+        \item \href{https://github.com/0123456hahaha0123456/PIP}{Link-to-code}
+        \item Gain : Practice with some technologies to build a web 
+    \end{itemize}
+\end{enumerate}
+
+\section{Competitive Programming Achievements}
+\cvlistitem{Vietnamese Olympiad in Informatics 2014 : bronze medal}
+
+\section{Skills}
+\begin{enumerate}
+    \item \textbf{Technical skills}
+    \begin{itemize}
+        \item Java, C++, Pascal, JavaScript, HTML, CSS, Unix, Github 
+        \item Algorithm, Data structure
+    \end{itemize}
+    \item \textbf{Language skills}
+    \begin{itemize}
+        \item \textbf{Vietnamese}(native), \textbf{English}(Intermediate), \textbf{Russian}(Pre-Intermediate) 
+    \end{itemize}
+    \item \textbf{Soft skills}
+    \begin{itemize}
+        \item Teamwork, Independence
+    \end{itemize}
+\end{enumerate}
+
+\section{Interests}
+\cvitem{}{Coding, Photography, Football, Chess}
+
+
+%\cvitem{Competitive Programming}{Practicing during last 6 years with significant achievements}
+
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+\clearpage
+\end{document}
+
+
+%% end of file `template.tex'.
