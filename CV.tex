@@ -1,0 +1,264 @@
+% DUC TRAN - 2020
+
+\documentclass{article}
+\pagenumbering{gobble} % remove page number
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+%\usepackage{amsfonts}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage[alpine]{ifsym}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{comment}
+\usepackage{verbatim}
+\usepackage[default]{sourcesanspro}
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\setlength{\hoffset}{-1in}%{-1in}
+\setlength{\voffset}{-1in}%{-1in}
+\addtolength{\hoffset}{1.5cm}
+\addtolength{\voffset}{1cm}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2\hoffset}
+\addtolength{\textwidth}{-2in}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2\voffset}
+\addtolength{\textheight}{-2in}%to fix pdf missing footer . old val {-.75in}
+\setlength{\oddsidemargin}{-0.75cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparpush}{0cm}
+\addtolength{\textwidth}{-\oddsidemargin}
+\addtolength{\textwidth}{-\marginparsep}
+\addtolength{\textwidth}{-\marginparwidth}
+\addtolength{\textwidth}{-\marginparpush}
+\setlength{\evensidemargin}{0cm}
+\setlist[itemize]{leftmargin=*}
+\setlist[itemize,1]{leftmargin=*,noitemsep,topsep=0pt}
+\setlist[itemize,2]{label={$\bullet$}, noitemsep,topsep=0pt}
+
+%\setlist{nosep} % remove all space between lines
+%\setlist{nolistsep}
+%% Vertical
+\setlength{\topmargin}{0cm}
+\setlength{\headheight}{0cm}
+\setlength{\headsep}{0cm}
+%\setlength{\footskip}{0cm}
+\addtolength{\textheight}{-\topmargin}
+\addtolength{\textheight}{-\headheight}
+\addtolength{\textheight}{-\headsep}
+\addtolength{\textheight}{-\footskip}
+
+
+%header/footer
+\pagestyle{fancy}
+\lfoot{}
+\cfoot{\sc DUC TRAN - 2020}
+\rfoot{}
+\renewcommand{\footrulewidth}{.2pt}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+
+%color
+\definecolor{Light}{gray}{.85}
+\newcommand{\cat}[1]{
+	\par \noindent\ignorespaces%
+	\colorbox[rgb]{0.9, 0.9, 0.9}
+	{\begin{minipage}
+			[c][1.2\height][c]{\linewidth}{\large\bf #1}
+	\end{minipage}}%
+	%\vspace{-\parskip}
+	%\vspace{-\abovedisplayskip}
+}
+
+
+%cv item
+%\newcommand{\cvitem}[2]{%
+	%\begin{minipage}[t]{.15\linewidth}{\flushleft #1}\end{minipage}
+%	\begin{minipage}[t]{.85\linewidth} #2\end{minipage}
+%} %time / content
+
+\renewcommand{\labelitemi}{}
+
+\newcommand{\miniabs}[1]{\begin{center}\begin{minipage}[t]{.90\linewidth}
+			{\flushleft {\small \textbf{Abstract.} #1}}\end{minipage}\end{center}}
+
+%-------------------------------------------
+%%%%%%%%%%%%%%%%%
+\begin{document}
+	\begin{center}
+		{\Large \bf TRUNG DUC TRAN}\\
+	\end{center}
+	
+	\begin{center}
+		\Hut: Saint Petersburg, Russia $\bullet$ 
+		\phone: \href{tel:+7 931 207 9667}{+7 931 207 9667} $\bullet$
+		\Letter:\href{mailto:ductran.tpc@gmail.com}{ductran.tpc@gmail.com}
+		\\
+		\Mundus: \url{www.linkedin.com/in/ductrantpc} $\bullet$ \url{https://github.com/0123456hahaha0123456}
+	\end{center}
+	
+	%==================================================================================%%
+  
+  
+	\cat{EDUCATION}
+	%==================================================================================%%
+	\begin{itemize}
+		\item
+		{
+			\textbf{ITMO University}{, \emph{Saint Petersburg, Russia}}
+			\hfill
+			\textbf{2017-now} 
+			\begin{itemize}
+			    \item \textbf{Bachelor in Computer Science}
+			    \item \textbf{GPA:} 3.54/5.0
+			    \item \textbf{Relevant coursework:} Discrete Mathematics, Data Structures and Algorithms, Possibility Theory, Computation, Applied Mathematics, Optimization Method, Programming, Introduction to Computer Engineering, Database System, System Programming Language, Web Development, Systems Software, Computer Organization and Architecture, Modeling, Introduction to System Programming 
+			\end{itemize}
+		}
+		\item
+    	{
+			\textbf{Hanoi University of Engineering and Technology (UET)}{, \emph{Hanoi, Vietnam}}
+			\hfill
+			\textbf{2015 - 2016}
+			\begin{itemize}
+			    \item \textbf{Bachelor in Computer Science}
+			    \item \textbf{GPA:} 3.76/4.0
+			\end{itemize}
+		}
+		\item
+    	{
+			\textbf{Tran Phu High School for the Gifted}{, \emph{Haiphong, Vietnam}}
+			\hfill
+			\textbf{2012 - 2015}
+			\begin{itemize}
+			    \item \textbf{Computer Science Specialized Class}
+			\end{itemize}
+		}
+		
+	\end{itemize}
+	
+	%==================================================================================%%\newline
+	\cat{HONORS AND AWARDS }
+	%==================================================================================%%
+	\begin{itemize}
+		\item 
+		{
+			\textbf{Vietnam Government Scholarships}
+			\hfill
+			\textbf{2016} \\
+			\emph{A scholarship awarded by the Government of Vietnam for outstanding Vietnamese college freshmen}
+		}
+		\item 
+		{
+			\textbf{Vietnam National Olympiad in Informatics $\bullet$ Bronze Medal} 
+			\hfill
+			\textbf{2014}\\
+			\emph{The biggest competitive programming contest hosted by the Minister of Education for high school students in Vietnam}
+		}
+	\end{itemize}
+	
+	
+	%==================================================================================%%
+	\cat{PROFESSIONAL EXPERIENCE}
+	%==================================================================================%%
+	\begin{itemize}
+        \item 
+		{
+			\textbf{Back-end Engineering Intern $\bullet$ OOO EPAM Systems}{, \emph{Russia}}
+			\hfill
+			\textbf{Jan 2020 - Mar 2020} 
+			\begin{itemize}%[noitemsep,topsep=0pt]
+			    \item  Built an online queuing system that helps customers save time through securing a spot online and only showing up when it is a specific customer’s turn. This system can be used in hospitals, restaurants, and banks.
+			    \item Created APIs so other companies can implement this system into their systems
+			    \item Utilized Telegram Bot to make this system easier to use, without dealing with APIs
+                \item Speed up the server performance from N to (log N)
+                \item Technology used: Java
+
+			\end{itemize}
+		}
+		
+	\end{itemize}
+	
+	%==================================================================================%%
+	\cat{SELECTED PROJECTS}
+	%==================================================================================%%
+	\begin{itemize}
+        \item 
+		{
+			\textbf{Grade-checking Website}
+			\hfill
+			\textbf{Feb 2019 - Jun 2019} 
+			\begin{itemize}
+			    \item Created a simple website for checking the grades of my classes without going through layers of menus
+			    \item Used Spring Security to authenticate users
+			    \item Technologies used: Ajax, Vue.js, JSP, JSF, Spring, RESTful, HTML, CSS and JavaScript, JPA
+			\end{itemize}
+		}
+		\item 
+		{
+			\textbf{Developers-finding Website}
+			\hfill
+			\textbf{Sep 2018 - Jan  2019} 
+			\begin{itemize}
+			    \item Created a developers-finding website which allows leaders to find the missing pieces that fit their team’s criteria
+			    \item Processed about 10,000 entries of developers’ data by using PostgreSQL
+			    \item Added some triggers on the database so it can be updated when necessary
+			    \item Technologies used: PostgreSQL
+			\end{itemize}
+		}
+		\item 
+		{
+			\textbf{Digitizing Identities}
+			\hfill
+			\textbf{ Sep  2017 - Feb 2018}\\
+			\emph{This project converts users’ personal information into geometric figures, enabling easy access and modifications}
+			\begin{itemize}
+			    \item Used PostgreSQL to store information
+			    \item Built server and client applications that can communicate  through UDP to exchange data
+			    \item Technologies used: Core Java, PostgreSQL, JDBC
+			\end{itemize}
+		}
+	\end{itemize}
+	
+	%==================================================================================%%
+	\cat{SKILLS}
+	%==================================================================================%%
+	\begin{itemize}
+		\item{
+		    \textbf{Programming:}
+		    \begin{itemize}
+		        \item Languages: Java, Kotlin, C, C++, Assembly,  JavaScript, PostgreSQL, HTML, CSS, Bash
+		        \item Frameworks and Tools: Git, Spring, JSP, JSF, Hibernate, JDBC,  REST API, VueJS, gradle, MVC 
+		        \item  Strong knowledge of Algorithms and Data Structures
+		    \end{itemize}
+		}
+		\item{
+		    \textbf{Linguistics: }
+		    \begin{itemize}
+		        \item Vietnamese (first language) $\bullet$ Russian (proficiency level) $\bullet$ English (intermediate level)
+		    \end{itemize}
+		}
+	\end{itemize}
+	
+	\cat{LEADERSHIP AND EXTRACURRICULAR ACTIVITIES}
+	
+	\begin{itemize}
+	    \item{
+	    \textbf{Member of Executive Board $\bullet$ UET Presentation Club}
+	    \hfill
+		\textbf{Jul 2016 - Oct 2016}
+		\begin{itemize}
+		    \item  Made recruitment plan, searched about 30 potential applicants and managed the application process
+		    \item Taught a group of seven people about persuasive speaking and communication skills
+		\end{itemize}
+	    }
+	    
+		
+	\end{itemize}
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
